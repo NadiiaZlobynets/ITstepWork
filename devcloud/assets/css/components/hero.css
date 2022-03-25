@@ -1,0 +1,113 @@
+.main__img__conatainer  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.main__img__conatainer_full_picture  {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.main__img__conatainer_croped_picture {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+    height: 10%;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(.2rem);
+}
+
+.header__menu {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: start;
+    z-index: 300;
+    height: 10%;
+    width: 296px;
+}
+
+.header__menu__container {
+    margin: 0 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+}
+
+.header__menu__container img {
+    width: 53px;
+    height: 52px;
+}
+
+.header__menu__container h2 {
+    margin: 0 auto;
+    width: 400px;
+    height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.header__menu__container_navigation {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    width: 90%;
+}
+
+.header__menu__container_navigation a {
+    width: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+}
+
+.header__menu__container_navigation a:hover {
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.main__section__text {
+    margin: 15% auto;
+    z-index: 200;
+    width: 50%;
+    text-align: center;
+}
+
+.main__section__text h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 47px;
+    line-height: 64px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main__menu__img__dark__cover {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+    height: 100%;
+    background: rgba(3, 12, 66, 0.3);
+}

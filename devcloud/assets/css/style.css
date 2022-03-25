@@ -1,0 +1,98 @@
+@import "components/hero.css";
+@import "components/btn.css";
+
+:root {
+    /* font */
+    --globalFontFamily: 'Raleway', sans-serif;
+    --fontFamily-Lato: 'Lato', sans-serif;
+    /* /font */
+    /* text */
+    --font-size: 16px;
+    --line-height: 1.5;
+    /* /text */
+    /* color */
+    --black-700: #282B22;
+
+    --green-700: #3D4A39;
+
+    --brown-700: #AE7B3C;
+    --brown-600: #CC9654;
+
+    --gray-700: #F3F3F3;
+
+    --white-900: #ffffff;
+
+    --red-700: #E11616;
+    /* /color */
+    --width-container-normal: 1200px;
+    --index-header: 999999;
+    --index-z: 9999999;
+    --index-z-navigation-slider: 999;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--globalFontFamily);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: var(--width-container-normal);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: var(--fontFamily-Lato);
+}
+
+h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 2.875rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bgc-green {
+    color: var(--white-900);
+    background-color: var(--green-700);
+}
+
+.clear-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hr-line-gray {
+    width: 100%;
+    height: 1px;
+    background-color: var(--black-700);
+    opacity: .2;
+    display: block;
+}
+
+.block-section{
+    margin: 140px 0;
+}
+
