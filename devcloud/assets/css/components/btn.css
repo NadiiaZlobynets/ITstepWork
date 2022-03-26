@@ -1,24 +1,18 @@
-.main__section__btn button {
+.main__section__btn_item {
     position: absolute;
     display: block;
     width: 276px;
     height: 46px;
-    left: 70%;
-    top: 500px;
-    background: rgba(0, 153, 125, 0.79);
+    left: 43%;
+    top: 55%;
+    background: var(--navi-semi-transparent);
     border-radius: 43px;
     z-index: 200;
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    color: #FFFFFF;
     border: none;
 }
 
-.main__section__btn button:hover {
+.main__section__btn_item:hover {
     border: 2px solid white;
     font-weight: 800;
     cursor: pointer;

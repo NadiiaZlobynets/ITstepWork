@@ -1,28 +1,3 @@
-.main__img__conatainer  {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-
-.main__img__conatainer_full_picture  {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-}
-
-.main__img__conatainer_croped_picture {
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 200;
-    height: 10%;
-    background: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(.2rem);
-}
-
 .header__menu {
     margin: 0 auto;
     display: flex;
@@ -37,6 +12,7 @@
 
 .header__menu__container {
     margin: 0 10%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -49,16 +25,11 @@
     height: 52px;
 }
 
-.header__menu__container h2 {
+.header__menu__container_text_item {
     margin: 0 auto;
     width: 400px;
     height: 25px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
-    color: #FFFFFF;
 }
 
 .header__menu__container_navigation {
@@ -68,46 +39,16 @@
     width: 90%;
 }
 
-.header__menu__container_navigation a {
+.header__menu__container_navigation_item {
     width: 150px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 0.025em;
-    color: #FFFFFF;
 }
 
-.header__menu__container_navigation a:hover {
+.header__menu__container_navigation_item:nth-child(4n) {
+    width: 250px;
+}
+
+.header__menu__container_navigation_item:hover {
     font-weight: 800;
     cursor: pointer;
 }
 
-.main__section__text {
-    margin: 15% auto;
-    z-index: 200;
-    width: 50%;
-    text-align: center;
-}
-
-.main__section__text h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 47px;
-    line-height: 64px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.main__menu__img__dark__cover {
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 200;
-    height: 100%;
-    background: rgba(3, 12, 66, 0.3);
-}
