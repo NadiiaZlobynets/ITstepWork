@@ -6,7 +6,7 @@
     background-size: cover;
 }
 
-.main__img__container_cropped_picture {
+.main__img__container__cropped__picture {
     display: flex;
     position: absolute;
     top: 0;
@@ -41,14 +41,14 @@
     background: var(--blue-semi-transparent);
 }
 
-.main__img__container_content {
+.main__img__container__content {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.main__section__arrow_item {
+.main__section__arrow__item {
     position: absolute;
     top: 70%;
     left: 50%;

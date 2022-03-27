@@ -5,10 +5,10 @@
     /* color */
     --white-basic: #FFFFFF;
 
-    --black-semi-transparent: rgba(0, 0, 0, 0.2);
+    --black-semi-transparent: rgba(0, 0, 0, .2);
 
-    --blue-semi-transparent: rgba(3, 12, 66, 0.3);
+    --blue-semi-transparent: rgba(3, 12, 66, .3);
 
-    --navi-semi-transparent: rgba(0, 153, 125, 0.79);
+    --navi-semi-transparent: rgba(0, 153, 125, .79);
 
 }
