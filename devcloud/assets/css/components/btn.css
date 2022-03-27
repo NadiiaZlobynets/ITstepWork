@@ -18,3 +18,19 @@
     cursor: pointer;
 }
 
+.guaranteeing__btn {
+    width: 267.5px;
+    height: 55px;
+    background: #000000;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    margin: 5% auto;
+}
+
+.guaranteeing__btn:hover {
+   cursor: pointer;
+    background: transparent;
+    color: var(--black);
+    font-weight: bold;
+    border: 3px solid var(--black);
+}

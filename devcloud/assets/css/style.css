@@ -3,6 +3,7 @@
 @import "components/btn.css";
 @import "components/main.css";
 @import "components/guaranteeing.css";
+@import "components/services.css";
 
 body {
     padding: 0;
