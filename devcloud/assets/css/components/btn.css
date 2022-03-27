@@ -1,0 +1,20 @@
+.main__section__btn__item {
+    position: absolute;
+    display: block;
+    width: 276px;
+    height: 46px;
+    left: 43%;
+    top: 55%;
+    background: var(--navi-semi-transparent);
+    border-radius: 43px;
+    z-index: 200;
+    margin: 0 auto;
+    border: none;
+}
+
+.main__section__btn__item:hover {
+    border: 2px solid white;
+    font-weight: 800;
+    cursor: pointer;
+}
+

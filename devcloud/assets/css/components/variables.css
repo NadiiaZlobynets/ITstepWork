@@ -1,0 +1,14 @@
+:root {
+    /* font */
+    --globalFontFamily: 'Open Sans', sans-serif;
+
+    /* color */
+    --white-basic: #FFFFFF;
+
+    --black-semi-transparent: rgba(0, 0, 0, .2);
+
+    --blue-semi-transparent: rgba(3, 12, 66, .3);
+
+    --navi-semi-transparent: rgba(0, 153, 125, .79);
+
+}

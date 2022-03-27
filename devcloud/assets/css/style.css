@@ -1,0 +1,30 @@
+@import "components/variables.css";
+@import "components/hero.css";
+@import "components/btn.css";
+@import "components/main.css";
+@import "components/guaranteeing.css";
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--globalFontFamily);
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 90%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, a, button {
+    font-family: var(--globalFontFamily);
+    color: var(--white-basic);
+    text-decoration: none;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.025em;
+}
