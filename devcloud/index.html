@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
 </head>
 
 <body>
@@ -158,12 +162,76 @@
             </div>
         </div>
     </section>
-
     <section class="projects">
-        <div class="projects__container">
-
+        <div class="projects__container container">
+            <h1 class="projects__title">Наши проекты</h1>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="project__slider__container">
+                            <img class="projects__slider__img" src="assets/img/projects_slider_img.png" alt="projects_slider_img">
+                            <div class="project__slider__block">
+                                <h1 class="projects__slider__title">Компания по производству фотокниг Fototeca</h1>
+                                <p class="project__slider__text">
+                                    Программное решение, автоматизирующее производство изделий – от создания дизайна до выдачи клиенту.
+                                    Была создана система, которая позволяет профессиональному фотографу – клиенту компании —
+                                    формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу передать заказ в производство.
+                                </p>
+                                <div class="project__btn__container">
+                                    <img class="project__icon__cloud"  src="assets/icons/project_cloud_black.png" alt="project_cloud_black">
+                                    <button class="project__btn">Узнать больше</button>
+                                    <img class="project__icon__arrow"  src="assets/icons/project_arrow_black.png" alt="project_arrow_black">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project__slider__container">
+                            <img class="projects__slider__img" src="assets/img/project_slider_two.png" alt="project_slider_two">
+                            <div class="project__slider__block">
+                                <h1 class="projects__slider__title">Компания по производству фотокниг Fototeca</h1>
+                                <p class="project__slider__text">
+                                    Программное решение, автоматизирующее производство изделий – от создания дизайна до выдачи клиенту.
+                                    Была создана система, которая позволяет профессиональному фотографу – клиенту компании —
+                                    формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу передать заказ в производство.
+                                </p>
+                                <div class="project__btn__container">
+                                    <img class="project__icon__cloud"  src="assets/icons/project_cloud_black.png" alt="project_cloud_black">
+                                    <button class="project__btn">Узнать больше</button>
+                                    <img class="project__icon__arrow"  src="assets/icons/project_arrow_black.png" alt="project_arrow_black">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project__slider__container">
+                            <img class="projects__slider__img" src="assets/img/project_slider_three.png" alt="project_slider_three">
+                            <div class="project__slider__block">
+                                <h1 class="projects__slider__title">Компания по производству фотокниг Fototeca</h1>
+                                <p class="project__slider__text">
+                                    Программное решение, автоматизирующее производство изделий – от создания дизайна до выдачи клиенту.
+                                    Была создана система, которая позволяет профессиональному фотографу – клиенту компании —
+                                    формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу передать заказ в производство.
+                                </p>
+                                <div class="project__btn__container">
+                                    <img class="project__icon__cloud"  src="assets/icons/project_cloud_black.png" alt="project_cloud_black">
+                                    <button class="project__btn">Узнать больше</button>
+                                    <img class="project__icon__arrow"  src="assets/icons/project_arrow_black.png" alt="project_arrow_black">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="project__btn__bottom__container">
+                <button class="project__btn__bottom">Посмотреть все проекты</button>
+            </div>
         </div>
     </section>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
