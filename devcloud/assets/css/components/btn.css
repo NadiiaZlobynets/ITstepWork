@@ -19,7 +19,7 @@
 }
 
 .guaranteeing__btn {
-    width: 267.5px;
+    width: 268px;
     height: 55px;
     background: #000000;
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
@@ -41,5 +41,43 @@
     background: var(--black);
     border-radius: 43px;
     z-index: 100;
+    margin-left: -50%;
 }
 
+.project__btn {
+    display: inline-block;
+    width: 60%;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.project__btn:hover {
+    color: #29A28C;
+    cursor: pointer;
+}
+
+.process__btn {
+    display: inline-block;
+    width: 60%;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.process__btn:hover {
+    color: #29A28C;
+    cursor: pointer;
+}
