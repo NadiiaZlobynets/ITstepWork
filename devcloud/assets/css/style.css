@@ -8,6 +8,9 @@
 @import "components/process.css";
 @import "components/tools.css";
 @import "components/our_experience.css";
+@import "components/works.css";
+@import "components/reviews.css";
+@import "components/footer.css";
 
 body {
     padding: 0;
