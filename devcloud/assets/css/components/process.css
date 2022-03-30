@@ -1,9 +1,3 @@
-.process__container {
-    margin: 5%;
-    height: 100vh;
-    background: pink;
-}
-
 .process__title {
     font-weight: 700;
     font-size: 40px;
@@ -13,7 +7,6 @@
     margin: 10% auto;
     width: 45%;
     text-align: center;
-    padding-bottom: 10%;
 }
 
 .swiper2 {

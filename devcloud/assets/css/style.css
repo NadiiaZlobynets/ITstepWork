@@ -6,6 +6,8 @@
 @import "components/services.css";
 @import "components/our_projects.css";
 @import "components/process.css";
+@import "components/tools.css";
+@import "components/our_experience.css";
 
 body {
     padding: 0;
