@@ -36,7 +36,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: 200;
+    z-index: 199;
     height: 100%;
     background: var(--blue-semi-transparent);
 }
@@ -52,4 +52,16 @@
     position: absolute;
     top: 70%;
     left: 50%;
+}
+
+#menu {
+    display: none;
+}
+
+.miniSwiper {
+    display: none;
+}
+
+.mobile__hide {
+    opacity: 1;
 }

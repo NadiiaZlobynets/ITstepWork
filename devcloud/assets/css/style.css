@@ -11,6 +11,8 @@
 @import "components/works.css";
 @import "components/reviews.css";
 @import "components/footer.css";
+@import "components/hero_mobile.css";
+
 
 body {
     padding: 0;

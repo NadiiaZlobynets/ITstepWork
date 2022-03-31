@@ -20,8 +20,25 @@
     <header class="header">
         <div class="main__img__container__cropped__picture">
             <div class="header__menu__container">
-                <img src="assets/icons/devclouds_main_logo.png" alt="devclouds_main_logo">
-                <h2 class="header__menu__container__text__item">DEVCLOUD SOLUTIONS</h2>
+                <img class="header__menu__logo__img" src="assets/icons/devclouds_main_logo.png" id="hide_logo" alt="devclouds_main_logo">
+                <h2 class="header__menu__container__text__item" id="hide_text_logo">DEVCLOUD SOLUTIONS</h2>
+                <div id="menu">
+                    <div class="header__menu__mobile__container" id="menu-bar" onclick="menuOnClick()">
+                        <div id="bar1" class="bar"></div>
+                        <div id="bar2" class="bar"></div>
+                        <div id="bar3" class="bar"></div>
+                    </div>
+                    <nav class="nav" id="nav">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Портфорило</a></li>
+                            <li><a href="#">Как мы работаем</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
                 <div class="header__menu__container__navigation">
                     <a class="header__menu__container__navigation__item" href="#">
                         Главная
@@ -49,11 +66,11 @@
         <div class="main__img__container">
             <div class="main__menu__img__dark__cover"></div>
             <div class="main__img__container__content">
-                <div class="main__section__text">
+                <div class="main__section__text" id="company_text">
                     <h1 class="main__section__text__item">Компания по разработке програмного обеспечения</h1>
                 </div>
                 <div class="main__section__btn">
-                    <button class="main__section__btn__item">Запросить консультацию</button>
+                    <button class="main__section__btn__item" id="main__section__btn__item">Запросить консультацию</button>
                 </div>
                 <div class="main__section__arrow">
                     <img class="main__section__arrow__item" src="assets/icons/first_page_arrow.png" alt="first_page_arrow">
@@ -67,6 +84,44 @@
                 <div class="guaranteeing__container__block__one">
                     <h2 class="guaranteeing__numbers">98%</h2>
                     <p class="guaranteeing__text">Завершенных проектов успешно</p>
+                </div>
+                <div class="swiper miniSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="miniSwiper__first__slide">
+                                <p class="miniSwiper__number">98%</p>
+                                <p class="miniSwiper__text">Завершенных проектов успешно</p>
+                            </div>
+                            <div class="miniSwiper__first__slide">
+                                <div class="miniSwiper__black__line"></div>
+                                <p class="miniSwiper__number">30</p>
+                                <p class="miniSwiper__text">календарных дней до первого релиза</p>
+                            </div>
+                            <div class="miniSwiper__lines__container">
+                                <img class="miniSwiper__active__live"  src="assets/img/mobile/line_active.png" alt="line-active">
+                                <img class="miniSwiper__inactive__live"  src="assets/img/mobile/line-incactive.png" alt="line-incactive">
+                            </div>
+                        </div>
+                         <div class="swiper-slide">
+                            <div class="miniSwiper__first__slide">
+                                <p class="miniSwiper__number">5+</p>
+                                <p class="miniSwiper__text">дней от идеи до готовой концепции</p>
+                            </div>
+                            <div class="miniSwiper__first__slide">
+                                <div class="miniSwiper__black__line"></div>
+                                <p class="miniSwiper__number">+20%</p>
+                                <p class="miniSwiper__text">к эффективности вашего бизнеса</p>
+                            </div>
+                            <div class="miniSwiper__lines__container">
+                                <img class="miniSwiper__inactive__live"  src="assets/img/mobile/line-incactive.png" alt="line-incactive">
+                                <img class="miniSwiper__active__live"  src="assets/img/mobile/line_active.png" alt="line-active">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="miniSwiper-pagination"></div>
+                    <div class="miniSwiper-button-prev"></div>
+                    <div class="miniSwiper-button-next"></div>
+                    <div class="miniSwiper-scrollbar"></div>
                 </div>
             <div class="guaranteeing__container__block__one__line">
                 <div class="guaranteeing__line"></div>
