@@ -12,11 +12,19 @@ const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            navigation: false,
+        },
 
-    // Navigation arrows
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        1600: {
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        }
     },
 });
 
