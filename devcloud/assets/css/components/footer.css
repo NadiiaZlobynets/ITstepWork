@@ -39,14 +39,14 @@
     margin: 0 auto;
     font-weight: 700;
     font-size: 20px;
-    line-height: 27px;
+    line-height: 1.35;
     color: var(--black);
 }
 
 .footer__text__address {
     font-weight: 500;
     font-size: 18px;
-    line-height: 171.18%;
+    line-height: 1.375;
     letter-spacing: 0.07em;
     text-transform: uppercase;
 }
@@ -54,7 +54,7 @@
 .footer__block__contacts__text {
     font-weight: 300;
     font-size: 12px;
-    line-height: 171.18%;
+    line-height: 1.375;
     letter-spacing: 0.065em;
     text-transform: uppercase;
 }
@@ -67,7 +67,7 @@
 .footer__block__contacts__email {
     font-weight: 300;
     font-size: 18px;
-    line-height: 171.18%;
+    line-height: 1.375;
     letter-spacing: 0.065em;
     text-transform: uppercase;
     width: 80%;
@@ -76,7 +76,7 @@
 .footer__block__contacts__whatsapp, .footer__block__contacts__telegram {
     font-weight: 300;
     font-size: 13px;
-    line-height: 171.18%;
+    line-height: 1.375;
     letter-spacing: 0.015em;
     text-transform: uppercase;
 }
@@ -89,7 +89,7 @@
     width: 100%;
     font-weight: 300;
     font-size: 18px;
-    line-height: 184.68%;
+    line-height: 1.375;
     letter-spacing: 0.065em;
     text-transform: uppercase;
     color: var(--black);

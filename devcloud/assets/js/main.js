@@ -1,4 +1,4 @@
-function menuOnClick () {
+const menuOnClick = () => {
     document.getElementById("menu-bar").classList.toggle("change");
     document.getElementById("nav").classList.toggle("change");
     document.getElementById("main__section__btn__item").classList.toggle("main__section__btn__item__position");
@@ -6,7 +6,6 @@ function menuOnClick () {
     document.getElementById("hide_text_logo").classList.toggle("hide");
     document.getElementById("company_text").classList.toggle("hide");
 }
-
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters

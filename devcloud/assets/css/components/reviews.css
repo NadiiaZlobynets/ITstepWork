@@ -25,7 +25,7 @@
 .reviews__title {
     font-size: 20px;
     font-weight: 600;
-    line-height: 182.68%;
+    line-height: 1.82;
     display: flex;
     align-items: center;
     letter-spacing: 0.045em;
@@ -37,7 +37,7 @@
 .reviews__text__short {
     font-weight: 300;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 1.38;
     margin: 1% auto;
     letter-spacing: 0.025em;
 }
@@ -45,7 +45,7 @@
 .reviews__text {
     font-weight: 300;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.37;
     width: 50%;
     display: flex;
     align-items: center;
@@ -61,7 +61,7 @@
 .reviews__date {
     font-weight: 300;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.37;
     margin: 0 auto;
     letter-spacing: 0.025em;
 }

@@ -29,7 +29,7 @@
     width: 104px;
     font-weight: bold;
     font-size: 48px;
-    line-height: 65px;
+    line-height: 1.35;
     letter-spacing: 0.08em;
     color: var(--black);
 }
@@ -78,14 +78,14 @@
     color: var(--black);
     font-weight: 700;
     font-size: 30px;
-    line-height: 54px;
+    line-height: 1.8;
     align-items: center;
     text-align: center;
 }
 
 .guaranteeing__about__text {
     font-size: 20px;
-    line-height: 31px;
+    line-height: 1.55;
     width: 75%;
     margin-top: 5%;
 }
@@ -95,7 +95,7 @@
     margin-top: 10%;
     font-weight: 300;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 1.35;
     letter-spacing: -0.015em;
 }
 

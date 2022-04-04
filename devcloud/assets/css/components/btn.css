@@ -51,7 +51,7 @@
     border: none;
     font-weight: bold;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.375;
     align-items: center;
     letter-spacing: 0.05em;
     color: var(--black);
@@ -70,7 +70,7 @@
     border: none;
     font-weight: bold;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.375;
     align-items: center;
     letter-spacing: 0.05em;
     color: var(--black);
@@ -78,6 +78,6 @@
 }
 
 .process__btn:hover {
-    color: #29A28C;
+    color: var(--blue);
     cursor: pointer;
 }
