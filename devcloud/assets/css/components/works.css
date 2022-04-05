@@ -8,7 +8,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 1.35;
-    letter-spacing: 0.045em;
+    letter-spacing: .045em;
     color: var(--black);
     margin: 10% auto;
     width: 45%;

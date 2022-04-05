@@ -2,7 +2,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 1.35;
-    letter-spacing: 0.045em;
+    letter-spacing: .045em;
     color: var(--black);
     margin: 10% auto;
     width: 45%;
@@ -10,7 +10,6 @@
 }
 
 .swiper2 {
-    background: #c4b0d3;
     width: 100%;
     overflow: hidden;
     height:500px;
@@ -24,7 +23,7 @@
     line-height: 1.36;
     display: flex;
     align-items: center;
-    letter-spacing: 0.045em;
+    letter-spacing: .045em;
     text-transform: uppercase;
     color: var(--black);
 }
@@ -35,7 +34,7 @@
     line-height: 1.5;
     display: flex;
     text-align: left;
-    letter-spacing: 0.01em;
+    letter-spacing: .01em;
     width: 80%;
 }
 
@@ -89,7 +88,7 @@
 .gallery-thumbs .swiper-slide {
     width: 100px;
     height: 50px;
-    opacity: 0.4;
+    opacity: .4;
 }
 
 .gallery-top {

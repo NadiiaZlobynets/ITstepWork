@@ -13,7 +13,7 @@
 }
 
 .main__section__btn__item:hover {
-    border: 2px solid white;
+    border: 2px solid var(--white-basic);
     font-weight: 800;
     cursor: pointer;
 }
@@ -21,8 +21,8 @@
 .guaranteeing__btn {
     width: 268px;
     height: 55px;
-    background: #000000;
-    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+    background: var(--black);
+    box-shadow: 4px 4px 7px var(--box-shadow);
     border-radius: 32px;
     margin: 5% auto;
 }
@@ -53,13 +53,13 @@
     font-size: 16px;
     line-height: 1.375;
     align-items: center;
-    letter-spacing: 0.05em;
+    letter-spacing: .05em;
     color: var(--black);
     text-transform: uppercase;
 }
 
 .project__btn:hover {
-    color: #29A28C;
+    color: var(--blue);
     cursor: pointer;
 }
 
@@ -72,7 +72,7 @@
     font-size: 16px;
     line-height: 1.375;
     align-items: center;
-    letter-spacing: 0.05em;
+    letter-spacing: .05em;
     color: var(--black);
     text-transform: uppercase;
 }

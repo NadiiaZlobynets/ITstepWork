@@ -7,7 +7,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 1.35;
-    letter-spacing: 0.045em;
+    letter-spacing: .045em;
     color: var(--black);
     margin: 0 auto;
     width: 400px;
@@ -25,7 +25,7 @@
 .services__block__one, .services__block__two, .services__block__three {
     height: 100%;
     width: 30%;
-    box-shadow: 0 3px 11px rgba(3, 74, 62, 0.56);
+    box-shadow: 0 3px 11px rgba(3, 74, 62, .56);
     border-radius: 27px;
     padding: 0;
     margin: 0;
@@ -50,7 +50,7 @@
     line-height: 1.4;
     display: flex;
     align-items: center;
-    letter-spacing: 0.065em;
+    letter-spacing: .065em;
     text-transform: uppercase;
     text-align: left;
     font-weight: bold;
@@ -66,7 +66,7 @@
     line-height: 1.5;
     display: flex;
     align-items: center;
-    letter-spacing: -0.015em;
+    letter-spacing: .015em;
     color: var(--black);
     margin: 50% auto;
     width: 70%;
@@ -82,8 +82,8 @@
     font-size: 16px;
     line-height: 1.37;
     align-items: center;
-    letter-spacing: 0.05em;
-    color: #29A28C;
+    letter-spacing: .05em;
+    color: var(--blue);
 }
 
 .services__btn:hover, .services__icon__cloud:hover {
@@ -101,4 +101,3 @@
     height: 20%;
     margin: 0 auto;
 }
-

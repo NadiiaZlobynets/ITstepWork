@@ -24,7 +24,7 @@
         display: flex;
         align-items: center;
         text-align: center;
-        letter-spacing: 0.05em;
+        letter-spacing: .05em;
     }
 
     .guaranteeing__container__quote__left__mobile, .guaranteeing__container__quote__right__mobile {
@@ -50,12 +50,12 @@
         display: flex;
         align-items: center;
         text-align: center;
-        letter-spacing: 0.01em;
+        letter-spacing: .01em;
     }
 
     .guaranteeing__btn {
         margin: 5% auto;
-        box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+        box-shadow: 4px 4px 7px var(--box-shadow);
         border-radius: 32px;
     }
 }

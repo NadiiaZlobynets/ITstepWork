@@ -15,7 +15,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 1.35;
-    letter-spacing: 0.045em;
+    letter-spacing: .045em;
     color: var(--black);
     margin: 10% auto;
     width: 100%;
@@ -36,7 +36,7 @@
     line-height: 1.16;
     display: flex;
     align-items: center;
-    letter-spacing: 0.015em;
+    letter-spacing: .015em;
 }
 
 .experience__block__one__title, .experience__block__two__title,
@@ -46,6 +46,6 @@
     line-height: 1.34;
     display: flex;
     align-items: center;
-    letter-spacing: 0.025em;
+    letter-spacing: .025em;
     color: var(--black);
 }

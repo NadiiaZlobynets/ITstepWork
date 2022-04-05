@@ -27,7 +27,7 @@
 .main__section__text__item {
     font-size: 47px;
     line-height: 1.36;
-    letter-spacing: 0.08em;
+    letter-spacing: .08em;
     text-transform: uppercase;
 }
 

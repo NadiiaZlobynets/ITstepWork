@@ -22,7 +22,7 @@
 .guaranteeing__line {
     width: 0;
     height: 100%;
-    border: 2px solid #29A28C;
+    border: 2px solid var(--blue);
 }
 
 .guaranteeing__numbers {
@@ -30,7 +30,7 @@
     font-weight: bold;
     font-size: 48px;
     line-height: 1.35;
-    letter-spacing: 0.08em;
+    letter-spacing: .08em;
     color: var(--black);
 }
 
@@ -96,7 +96,7 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 1.35;
-    letter-spacing: -0.015em;
+    letter-spacing: -.015em;
 }
 
 .guaranteeing__mob__title {
