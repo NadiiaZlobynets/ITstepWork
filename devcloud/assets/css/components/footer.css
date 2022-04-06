@@ -1,0 +1,105 @@
+.footer__container {
+    margin: 21% auto;
+    width: 90%;
+}
+
+.footer__block {
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__block__logo, .footer__block__address, .footer__block__contacts,
+.footer__block__main, .footer__block__menu {
+    width: 20%;
+    margin: 1%;
+}
+
+.footer__block__contacts,
+.footer__block__main, .footer__block__menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__block__logo {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__logo__icon {
+    width: 80px;
+    height: 82px;
+}
+
+.footer__text__logo {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.35;
+    color: var(--black);
+}
+
+.footer__text__address {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.375;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+}
+
+.footer__block__contacts__text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.375;
+    letter-spacing: .065em;
+    text-transform: uppercase;
+}
+
+.footer__block__contacts__icons__img {
+    height: 27px;
+    width: 27px;
+}
+
+.footer__block__contacts__email {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.375;
+    letter-spacing: .065em;
+    text-transform: uppercase;
+    width: 80%;
+}
+
+.footer__block__contacts__whatsapp, .footer__block__contacts__telegram {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.375;
+    letter-spacing: .015em;
+    text-transform: uppercase;
+}
+
+.footer__email__img {
+    margin-top: 7%;
+}
+
+.footer__menu__container__navigation__item {
+    width: 100%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.375;
+    letter-spacing: .065em;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.footer__menu__container__navigation__item:hover {
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.footer__block__arrow {
+    width: 2%;
+}

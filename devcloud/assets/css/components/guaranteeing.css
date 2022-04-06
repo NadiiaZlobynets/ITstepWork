@@ -1,0 +1,104 @@
+.guaranteeing__container__block {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.guaranteeing__container__block__one, .guaranteeing__container__block__two,
+.guaranteeing__container__block__three, .guaranteeing__container__block__four {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.guaranteeing__container__block__one__line, .guaranteeing__container__block__two__line,
+.guaranteeing__container__block__three__line {
+    width: 3%;
+}
+
+.guaranteeing__line {
+    width: 0;
+    height: 100%;
+    border: 2px solid var(--blue);
+}
+
+.guaranteeing__numbers {
+    width: 104px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.35;
+    letter-spacing: .08em;
+    color: var(--black);
+}
+
+.guaranteeing__text {
+    width: 200px;
+    height: 100px;
+    text-transform: lowercase;
+    text-align: center;
+    color: var(--black);
+}
+
+.guaranteeing__container__picture {
+    margin-top: 5%;
+    height: 583px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.guaranteeing__container__text__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 90%;
+}
+
+.guaranteeing__text_block {
+    display: flex;
+    flex-direction: row;
+}
+
+.guaranteeing__container__quote__left {
+    align-self: end;
+}
+
+.guaranteeing__container__quote__right {
+    align-self: start;
+}
+
+.guaranteeing__container__text {
+    display: inline-block;
+    width: 400px;
+    color: var(--black);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.8;
+    align-items: center;
+    text-align: center;
+}
+
+.guaranteeing__about__text {
+    font-size: 20px;
+    line-height: 1.55;
+    width: 75%;
+    margin-top: 5%;
+}
+
+.guaranteeing__copyright {
+    width: 80%;
+    margin-top: 10%;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.35;
+    letter-spacing: -.015em;
+}
+
+.guaranteeing__mob__title {
+    display: none;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -10,14 +10,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
 </head>
 
 <body>
     <header class="header">
         <div class="main__img__container__cropped__picture">
             <div class="header__menu__container">
-                <img src="assets/icons/devclouds_main_logo.png" alt="devclouds_main_logo">
-                <h2 class="header__menu__container__text__item">DEVCLOUD SOLUTIONS</h2>
+                <img class="header__menu__logo__img" src="assets/icons/devclouds_main_logo.png" id="hide_logo" alt="devclouds_main_logo">
+                <h2 class="header__menu__container__text__item" id="hide_text_logo">DEVCLOUD SOLUTIONS</h2>
+                <div id="menu">
+                    <div class="header__menu__mobile__container" id="menu-bar" onclick="menuOnClick()">
+                        <div id="bar1" class="bar"></div>
+                        <div id="bar2" class="bar"></div>
+                        <div id="bar3" class="bar"></div>
+                    </div>
+                    <nav class="nav" id="nav">
+                        <ul class="mobile__nav__ul">
+                            <li class="mobile__nav__li"><a class="mobile__nav__link" href="#">Главная</a></li>
+                            <li class="mobile__nav__li"><a class="mobile__nav__link" href="#">Услуги</a></li>
+                            <li class="mobile__nav__li"><a class="mobile__nav__link" href="#">Портфорило</a></li>
+                            <li class="mobile__nav__li"><a class="mobile__nav__link" href="#">Как мы работаем</a></li>
+                            <li class="mobile__nav__li"><a class="mobile__nav__link" href="#">О нас</a></li>
+                            <li class="mobile__nav__li"><a class="mobile__nav__link" href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
                 <div class="header__menu__container__navigation">
                     <a class="header__menu__container__navigation__item" href="#">
                         Главная
@@ -45,11 +66,11 @@
         <div class="main__img__container">
             <div class="main__menu__img__dark__cover"></div>
             <div class="main__img__container__content">
-                <div class="main__section__text">
+                <div class="main__section__text" id="company_text">
                     <h1 class="main__section__text__item">Компания по разработке програмного обеспечения</h1>
                 </div>
                 <div class="main__section__btn">
-                    <button class="main__section__btn__item">Запросить консультацию</button>
+                    <button class="main__section__btn__item" id="main__section__btn__item">Запросить консультацию</button>
                 </div>
                 <div class="main__section__arrow">
                     <img class="main__section__arrow__item" src="assets/icons/first_page_arrow.png" alt="first_page_arrow">
@@ -57,12 +78,588 @@
             </div>
         </div>
     </section>
+    <section class="guaranteeing">
+        <div class="guaranteeing__container">
+            <div class="guaranteeing__container__block container">
+                <div class="guaranteeing__container__block__one">
+                    <h2 class="guaranteeing__numbers">98%</h2>
+                    <p class="guaranteeing__text">Завершенных проектов успешно</p>
+                </div>
+                <div class="swiper miniSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="miniSwiper__first__slide">
+                                <p class="miniSwiper__number">98%</p>
+                                <p class="miniSwiper__text">Завершенных проектов успешно</p>
+                            </div>
+                            <div class="miniSwiper__first__slide">
+                                <div class="miniSwiper__black__line"></div>
+                                <p class="miniSwiper__number">30</p>
+                                <p class="miniSwiper__text">календарных дней до первого релиза</p>
+                            </div>
+                            <div class="miniSwiper__lines__container">
+                                <img class="miniSwiper__active__live"  src="assets/img/mobile/line_active.png" alt="line-active">
+                                <img class="miniSwiper__inactive__live"  src="assets/img/mobile/line-incactive.png" alt="line-incactive">
+                            </div>
+                        </div>
+                         <div class="swiper-slide">
+                            <div class="miniSwiper__first__slide">
+                                <p class="miniSwiper__number">5+</p>
+                                <p class="miniSwiper__text">дней от идеи до готовой концепции</p>
+                            </div>
+                            <div class="miniSwiper__first__slide">
+                                <div class="miniSwiper__black__line"></div>
+                                <p class="miniSwiper__number">+20%</p>
+                                <p class="miniSwiper__text">к эффективности вашего бизнеса</p>
+                            </div>
+                            <div class="miniSwiper__lines__container">
+                                <img class="miniSwiper__inactive__live"  src="assets/img/mobile/line-incactive.png" alt="line-incactive">
+                                <img class="miniSwiper__active__live"  src="assets/img/mobile/line_active.png" alt="line-active">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="miniSwiper-pagination"></div>
+                    <div class="miniSwiper-button-prev"></div>
+                    <div class="miniSwiper-button-next"></div>
+                    <div class="miniSwiper-scrollbar"></div>
+                </div>
+            <div class="guaranteeing__container__block__one__line">
+                <div class="guaranteeing__line"></div>
+            </div>
+                <div class="guaranteeing__container__block__two">
+                    <h3 class="guaranteeing__numbers">30</h3>
+                    <p class="guaranteeing__text">календарных дней до первого релиза</p>
+                </div>
+                <div class="guaranteeing__container__block__two__line">
+                    <div class="guaranteeing__line"></div>
+                </div>
+                <div class="guaranteeing__container__block__three">
+                    <h4 class="guaranteeing__numbers">5+</h4>
+                    <p class="guaranteeing__text">дней от идеи до готовой концепции</p>
+                </div>
+                <div class="guaranteeing__container__block__three__line">
+                    <div class="guaranteeing__line"></div>
+                </div>
+                <div class="guaranteeing__container__block__four">
+                    <h5 class="guaranteeing__numbers">+20%</h5>
+                    <p class="guaranteeing__text">к эффективности бизнеса</p>
+                </div>
+            </div>
+            <div class="guaranteeing__container__picture container">
+                <div class="guaranteeing__container__picture__container">
+                    <img class="guaranteeing__picture" src="assets/img/guaranteeing.png" alt="guaranteeing">
+                </div>
+                <div class="guaranteeing__container__text__container">
 
-    <section class="main__section">
-        <div class="main__section__container">
-
+                    <div class="guaranteeing__text_block">
+                            <img class="guaranteeing__container__quote__left" src="assets/img/quotes_left.png" alt="quotes_left">
+                            <h6 class="guaranteeing__container__text">Гарантируем качество и выполнение в сроки</h6>
+                            <img class="guaranteeing__container__quote__right" src="assets/img/quotes_right.png" alt="quotes_right">
+                    </div>
+                    <p class="guaranteeing__about__text">Мы просто умеем разрабатывать то, что нужно. То, что будет работать!</p>
+                    <button class="guaranteeing__btn">Запросить консультацию</button>
+                    <p class="guaranteeing__copyright">
+                        С 2010 года профессионально разрабатываем успешные мобильные и веб-решения, индивидуальные программные решения,
+                        информационные системы и ПО для бизнеса, которые повышают эффективность бизнеса.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="guaranteeing__mob__title">
+            <img class="guaranteeing__container__quote__right__mobile" src="assets/img/quotes_right.png" alt="quotes_right">
+            <h6 class="guaranteeing__container__text__mobile">Гарантируем качество и выполнение в сроки</h6>
+            <img class="guaranteeing__container__quote__left__mobile" src="assets/img/quotes_left.png" alt="quotes_left">
+            <img class="guaranteeing__picture__mobile" src="assets/img/guaranteeing.png" alt="guaranteeing">
+            <p class="guaranteeing__about__text__mobile">Мы просто умеем разрабатывать то, что нужно. То, что будет работать!</p>
+            <button class="guaranteeing__btn">Запросить консультацию</button>
         </div>
     </section>
+    <section class="services">
+        <div class="services__container">
+            <h2 class="services__title">Основные  услуги</h2>
+            <div class="services__blocks__container">
+                <div class="services__block__one">
+                    <img class="services__corner" src="assets/icons/corner.png" alt="corner"/>
+                    <img class="services__icon__mobile"  src="assets/icons/icon_mobile.png" alt="icon_mobile">
+                    <h3 class="services__block__title">Разработка мобильных приложений</h3>
+                    <p class="services__long__text">
+                        Мы создаем мобильные приложения, которые нравятся пользователям.
+                        Воспользовавшись преимуществами искусственного интеллекта,
+                        машинного обучения, интернета и других высокоразвитых технологий для создания приложений.
+                    </p>
+                    <div class="services__btn__container">
+                        <img class="services__icon__cloud"  src="assets/icons/services_cloud.png" alt="services_cloud">
+                        <button class="services__btn">Узнать больше</button>
+                        <img class="services__icon__arrow"  src="assets/icons/services_arrow.png" alt="services_arrow">
+                    </div>
+                </div>
+                <div class="services__block__two">
+                    <img class="services__corner" src="assets/icons/corner.png" alt="corner"/>
+                    <img class="services__icon__laptop"  src="assets/icons/services_laptop.png" alt="services_laptop">
+                    <h4 class="services__block__title">Разработка программного обеспечения</h4>
+                    <p class="services__long__text">
+                        Уже более 10 лет мы освоили лучшие веб-технологии для реализации проектов,
+                        в которые вложены инвестиции. Надежный лидер рынка в разработке высокопроизводительных
+                        веб-интерфейсов для любого бизнеса.
+                    </p>
+                    <div class="services__btn__container">
+                        <img class="services__icon__cloud"  src="assets/icons/services_cloud.png" alt="services_cloud">
+                        <button class="services__btn">Узнать больше</button>
+                        <img class="services__icon__arrow"  src="assets/icons/services_arrow.png" alt="services_arrow">
+                    </div>
+                </div>
+                <div class="services__block__three">
+                    <img class="services__corner" src="assets/icons/corner.png" alt="corner"/>
+                    <img class="services__icon__internet"  src="assets/icons/services_internet.png" alt="services_internet">
+                    <h5 class="services__block__title">Разработка веб приложений</h5>
+                    <p class="services__long__text">
+                        Мы не только идем в ногу с «тенденциями дизайна», но и ориентируемся на пользователей,
+                        что делает наши услуги наиболее эффективными на всем рынке. Превосходство с 2010г.
+                        Создадим идеальное приложение именно для вас.
+                    </p>
+                    <div class="services__btn__container">
+                        <img class="services__icon__cloud"  src="assets/icons/services_cloud.png" alt="services_cloud">
+                        <button class="services__btn">Узнать больше</button>
+                        <img class="services__icon__arrow"  src="assets/icons/services_arrow.png" alt="services_arrow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <div class="projects__container container">
+            <h2 class="projects__title">Наши проекты</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="project__slider__container">
+                            <img class="projects__slider__img" src="assets/img/projects_slider_img.png" alt="projects_slider_img">
+                            <div class="project__slider__block">
+                                <h3 class="projects__slider__title">Компания по производству фотокниг Fototeca</h3>
+                                <p class="project__slider__text">
+                                    Программное решение, автоматизирующее производство изделий – от создания дизайна до выдачи клиенту.
+                                    Была создана система, которая позволяет профессиональному фотографу – клиенту компании —
+                                    формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу передать заказ в производство.
+                                </p>
+                                <div class="project__btn__container">
+                                    <img class="project__icon__cloud"  src="assets/icons/project_cloud_black.png" alt="project_cloud_black">
+                                    <button class="project__btn">Узнать больше</button>
+                                    <img class="project__icon__arrow"  src="assets/icons/project_arrow_black.png" alt="project_arrow_black">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project__slider__container">
+                            <img class="projects__slider__img" src="assets/img/project_slider_two.png" alt="project_slider_two">
+                            <div class="project__slider__block">
+                                <h2 class="projects__slider__title">Компания по производству фотокниг Fototeca</h2>
+                                <p class="project__slider__text">
+                                    Программное решение, автоматизирующее производство изделий – от создания дизайна до выдачи клиенту.
+                                    Была создана система, которая позволяет профессиональному фотографу – клиенту компании —
+                                    формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу передать заказ в производство.
+                                </p>
+                                <div class="project__btn__container">
+                                    <img class="project__icon__cloud"  src="assets/icons/project_cloud_black.png" alt="project_cloud_black">
+                                    <button class="project__btn">Узнать больше</button>
+                                    <img class="project__icon__arrow"  src="assets/icons/project_arrow_black.png" alt="project_arrow_black">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project__slider__container">
+                            <img class="projects__slider__img" src="assets/img/project_slider_three.png" alt="project_slider_three">
+                            <div class="project__slider__block">
+                                <h3 class="projects__slider__title">Компания по производству фотокниг Fototeca</h3>
+                                <p class="project__slider__text">
+                                    Программное решение, автоматизирующее производство изделий – от создания дизайна до выдачи клиенту.
+                                    Была создана система, которая позволяет профессиональному фотографу – клиенту компании —
+                                    формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу передать заказ в производство.
+                                </p>
+                                <div class="project__btn__container">
+                                    <img class="project__icon__cloud"  src="assets/icons/project_cloud_black.png" alt="project_cloud_black">
+                                    <button class="project__btn">Узнать больше</button>
+                                    <img class="project__icon__arrow"  src="assets/icons/project_arrow_black.png" alt="project_arrow_black">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="project__btn__bottom__container">
+                <button class="project__btn__bottom">Посмотреть все проекты</button>
+            </div>
+        </div>
+    </section>
+    <section class="process container">
+            <h1 class="process__title">Наш процесс работы</h1>
+    </section>
+    <div class="swiper-container gallery-top">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="swiper-slide-container">
+                    <div class="process__slider__container">
+                        <img class="process__slider__img" src="assets/img/projects_slider_img.png" alt="projects_slider_img">
+                        <div class="process__slider__block">
+                            <h4 class="process__slider__title"> 1. Мастерская открытий</h4>
+                            <p class="process__slider__text">
+                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов.
+                                И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта.
+                                Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                            </p>
+                            <div class="process__btn__container">
+                                <img class="process__icon__cloud"  src="assets/icons/project_cloud_black.png" alt="project_cloud_black">
+                                <button class="process__btn">Узнать больше</button>
+                                <img class="process__icon__arrow"  src="assets/icons/project_arrow_black.png" alt="project_arrow_black">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide-container">
+                    <div class="process__slider__container">
+                        <img class="process__slider__img" src="assets/img/project_slider_two.png" alt="project_slider_two">
+                        <div class="process__slider__block">
+                            <h4 class="process__slider__title"> 2. Мастерская открытий</h4>
+                            <p class="process__slider__text">
+                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов.
+                                И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта.
+                                Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                            </p>
+                            <div class="process__btn__container">
+                                <img class="process__icon__cloud"  src="assets/icons/project_cloud_black.png" alt="project_cloud_black">
+                                <button class="process__btn">Узнать больше</button>
+                                <img class="process__icon__arrow"  src="assets/icons/project_arrow_black.png" alt="project_arrow_black">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide-container">
+                <div class="process__slider__container">
+                        <img class="process__slider__img" src="assets/img/project_slider_three.png" alt="project_slider_three">
+                        <div class="process__slider__block">
+                            <h4 class="process__slider__title"> 3. Мастерская открытий</h4>
+                            <p class="process__slider__text">
+                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов.
+                                И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта.
+                                Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                            </p>
+                            <div class="process__btn__container">
+                                <img class="process__icon__cloud"  src="assets/icons/project_cloud_black.png" alt="project_cloud_black">
+                                <button class="process__btn">Узнать больше</button>
+                                <img class="process__icon__arrow"  src="assets/icons/project_arrow_black.png" alt="project_arrow_black">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide-container">
+                    <div class="process__slider__container">
+                        <img class="process__slider__img" src="assets/img/project_slider_four.png" alt="project_slider_four">
+                        <div class="process__slider__block">
+                            <h4 class="process__slider__title"> 4. Мастерская открытий</h4>
+                            <p class="process__slider__text">
+                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов.
+                                И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта.
+                                Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                            </p>
+                            <div class="process__btn__container">
+                                <img class="process__icon__cloud"  src="assets/icons/project_cloud_black.png" alt="project_cloud_black">
+                                <button class="process__btn">Узнать больше</button>
+                                <img class="process__icon__arrow"  src="assets/icons/project_arrow_black.png" alt="project_arrow_black">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide-container">
+                    <div class="process__slider__container">
+                        <img class="process__slider__img" src="assets/img/project_slider_five.png" alt="project_slider_five">
+                        <div class="process__slider__block">
+                            <h4 class="process__slider__title"> 5. Мастерская открытий</h4>
+                            <p class="process__slider__text">
+                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов.
+                                И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта.
+                                Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                            </p>
+                            <div class="process__btn__container">
+                                <img class="process__icon__cloud"  src="assets/icons/project_cloud_black.png" alt="project_cloud_black">
+                                <button class="process__btn">Узнать больше</button>
+                                <img class="process__icon__arrow"  src="assets/icons/project_arrow_black.png" alt="project_arrow_black">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide-container">
+                    <div class="process__slider__container">
+                        <img class="process__slider__img" src="assets/img/project_slider_six.png" alt="project_slider_six">
+                        <div class="process__slider__block">
+                            <h4 class="process__slider__title"> 6. Мастерская открытий</h4>
+                            <p class="process__slider__text">
+                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов.
+                                И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта.
+                                Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                            </p>
+                            <div class="process__btn__container">
+                                <img class="process__icon__cloud"  src="assets/icons/project_cloud_black.png" alt="project_cloud_black">
+                                <button class="process__btn">Узнать больше</button>
+                                <img class="process__icon__arrow"  src="assets/icons/project_arrow_black.png" alt="project_arrow_black">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-container gallery-thumbs">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="swiper-slide-container">
+                    <img class="process__slider__img" src="assets/img/projects_slider_img.png" alt="projects_slider_img">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide-container">
+                    <img class="process__slider__img" src="assets/img/project_slider_two.png" alt="project_slider_two">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide-container">
+                    <img class="process__slider__img" src="assets/img/project_slider_three.png" alt="project_slider_three">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide-container">
+                    <img class="process__slider__img" src="assets/img/project_slider_four.png" alt="project_slider_four">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide-container">
+                    <img class="process__slider__img" src="assets/img/project_slider_five.png" alt="project_slider_five">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide-container">
+                    <img class="process__slider__img" src="assets/img/project_slider_six.png" alt="project_slider_six">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="tools">
+        <div class="tools__container container">
+            <h1 class="tools__title">Инструменты и технологии</h1>
+            <div class="tools__block__one">
+                <img class="tools__block__one__img" src="assets/img/partners/react_original_wordmark_logo_icon.png" alt="react_original_wordmark_logo_icon">
+                <img class="tools__block__one__img" src="assets/img/partners/xamarin_outline_icon.png" alt="xamarin_outline_icon">
+                <img class="tools__block__one__img" src="assets/img/partners/java_original_wordmark_logo_icon.png" alt="java_original_wordmark_logo_icon">
+                <img class="tools__block__one__img" src="assets/img/partners/csharp_original_logo_icon.png" alt="csharp_original_logo_icon">
+                <img class="tools__block__one__img" src="assets/img/partners/python_vertical_logo_icon.png" alt="python_vertical_logo_icon">
+                <img class="tools__block__one__img" src="assets/img/partners/swift_original_logo_icon.png " alt="swift_original_logo_icon">
+                <img class="tools__block__one__img" src="assets/img/partners/sql_icon.png" alt="sql_icon">
+                <img class="tools__block__one__img" src="assets/img/partners/javascript_icon.png" alt="javascript_icon">
+                <img class="tools__block__one__img" src="assets/img/partners/file_com_format_type_icon.png" alt="file_com_format_type_icon">
+            </div>
+            <div class="tools__block__two">
+                <img class="tools__block__two__img" src="assets/img/partners_two/vuejs_original_wordmark_logo_icon.png" alt="vuejs_original_wordmark_logo_icon">
+                <img class="tools__block__two__img" src="assets/img/partners_two/html_original_wordmark_logo_icon.png" alt="html_original_wordmark_logo_icon">
+                <img class="tools__block__two__img" src="assets/img/partners_two/file_type_css_icon.png" alt="file_type_css_icon">
+                <img class="tools__block__two__img" src="assets/img/partners_two/apple_objectivec_logo_icon.png" alt="apple_objectivec_logo_icon">
+                <img class="tools__block__two__img" src="assets/img/partners_two/postgresql_vertical_logo_icon.png" alt="postgresql_vertical_logo_icon">
+                <img class="tools__block__two__img" src="assets/img/partners_two/oracle_original_logo_icon.png" alt="oracle_original_logo_icon">
+                <img class="tools__block__two__img" src="assets/img/partners_two/mysql_original_wordmark_logo_icon.png" alt="mysql_original_wordmark_logo_icon">
+            </div>
+        </div>
+    </section>
+    <section class="experience">
+        <div class="experience__container container">
+            <h2 class="experience__title">Наш опыт</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide experience__flex">
+                        <div class="experience__block__one">
+                            <img src="assets/img/experience/experience_first.png" alt="experience_first">
+                            <h5 class="experience__block__one__title">Туризм</h5>
+                            <p class="experience__block__one__text">
+                                Создание различных решений в области туризма. Разработка индивидуальных туров,
+                                CRM-система для управления клиентскими услугами. Создание системы расчётов туров.
+                                Создание веб- приложения, что обеспечит полный цикл работы менеджеров тура.
+                            </p>
+                        </div>
+                        <div class="experience__block__two">
+                            <img src="assets/img/experience/experience_second.png" alt="experience_second">
+                            <h5 class="experience__block__two__title">Строительство</h5>
+                            <p class="experience__block__two__text">
+                                Внедрение комплексных решений в строительстве.
+                                Информационная витрина, которая интегрирует информацию из различных источников.
+                                Создание портала и настольного приложения для управления и автоматического сбора данных из ситем.
+                            </p>
+                        </div>
+                        <div class="experience__block__three">
+                            <img src="assets/img/experience/experience_third.png" alt="experience_third">
+                            <h5 class="experience__block__three__title">Финансы</h5>
+                            <p class="experience__block__three__text">
+                                Внедрение банковских систем для интеграции с международными системами денежных переводов,
+                                систем согласования бюджетных запросов и оперативного контроля использования бюджета,
+                                системы автоматизации бизнес- процессов кредитования.
+                            </p>
+                        </div>
+                        <div class="experience__block__four">
+                            <img src="assets/img/experience/experience_fourth.png" alt="experience_fourth">
+                            <h5 class="experience__block__four__title">Обучение</h5>
+                            <p class="experience__block__four__text">
+                                Корпоративное решение для организаций, осуществляющих обучение и тестирование персонала.
+                                Веб-приложение для администрирования обучения сотрудников - с возможностью создания учебных курсов,
+                                практических и тестовых заданий, отслеживания прогресса учеников.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide experience__flex">
+                        <div class="experience__block__one">
+                            <img src="assets/img/experience/experience_first.png" alt="experience_first">
+                            <h5 class="experience__block__one__title">Туризм</h5>
+                            <p class="experience__block__one__text">
+                                Создание различных решений в области туризма. Разработка индивидуальных туров,
+                                CRM-система для управления клиентскими услугами. Создание системы расчётов туров.
+                                Создание веб- приложения, что обеспечит полный цикл работы менеджеров тура.
+                            </p>
+                        </div>
+                        <div class="experience__block__two">
+                            <img src="assets/img/experience/experience_second.png" alt="experience_second">
+                            <h5 class="experience__block__two__title">Строительство</h5>
+                            <p class="experience__block__two__text">
+                                Внедрение комплексных решений в строительстве.
+                                Информационная витрина, которая интегрирует информацию из различных источников.
+                                Создание портала и настольного приложения для управления и автоматического сбора данных из ситем.
+                            </p>
+                        </div>
+                        <div class="experience__block__three">
+                            <img src="assets/img/experience/experience_third.png" alt="experience_third">
+                            <h5 class="experience__block__three__title">Финансы</h5>
+                            <p class="experience__block__three__text">
+                                Внедрение банковских систем для интеграции с международными системами денежных переводов,
+                                систем согласования бюджетных запросов и оперативного контроля использования бюджета,
+                                системы автоматизации бизнес- процессов кредитования.
+                            </p>
+                        </div>
+                        <div class="experience__block__four">
+                            <img src="assets/img/experience/experience_fourth.png" alt="experience_fourth">
+                            <h5 class="experience__block__four__title">Обучение</h5>
+                            <p class="experience__block__four__text">
+                                Корпоративное решение для организаций, осуществляющих обучение и тестирование персонала.
+                                Веб-приложение для администрирования обучения сотрудников - с возможностью создания учебных курсов,
+                                практических и тестовых заданий, отслеживания прогресса учеников.
+                            </p>
+                        </div>
+                    </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="works">
+        <div class="works__container container">
+            <h2 class="works__title">С кем мы работаем</h2>
+            <div class="works__block__one">
+                <img class="works__block__one__img" src="assets/img/works/coca_cola_icon.png" alt="coca_cola_icon">
+                <img class="works__block__one__img" src="assets/img/works/lorem_icon.png" alt="lorem_icon">
+                <img class="works__block__one__img" src="assets/img/works/bi_group_icon.png" alt="bi_group_icon">
+                <img class="works__block__one__img" src="assets/img/works/act_icon.png" alt="act_icon">
+                <img class="works__block__one__img" src="assets/img/works/copy_land_icon.png" alt="copy_land_icon">
+                <img class="works__block__one__img" src="assets/img/works/compix_icon.png" alt="compix_icon">
+            </div>
+            <div class="works__block__two">
+                <img class="works__block__one__img" src="assets/img/works_two/fototeca_icon.png" alt="fototeca_icon">
+                <img class="works__block__one__img" src="assets/img/works_two/master_icon.png" alt="master_icon">
+                <img class="works__block__one__img" src="assets/img/works_two/dan_icon.png" alt="dan_icon">
+                <img class="works__block__one__img" src="assets/img/works_two/arsan_icon.png" alt="arsan_icon">
+                <img class="works__block__one__img" src="assets/img/works_two/first_factoring_company_icon.png" alt="first_factoring_company_icon">
+                <img class="works__block__one__img" src="assets/img/works_two/podsolnuh_icon.png" alt="podsolnuh_icon">
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="reviews__container">
+            <div class="reviews__block">
+                <img class="reviews__img" src="assets/img/reviews/avatar.png" alt="avatar">
+                <h5 class="reviews__title">Юрий Архипов</h5>
+                <p class="reviews__text__short">Директор ТОО "Copyland"</p>
+                <p class="reviews__text">
+                    Разработана очень удобная система приема и обработки заказов,
+                    с ней реально высвобождается огромное количество ресурсов.
+                </p>
+                <div class="reviews__stars__container">
+                    <img class="reviews__stars__img" src="assets/img/reviews/star.png" alt="star">
+                    <img class="reviews__stars__img" src="assets/img/reviews/star.png" alt="star">
+                    <img class="reviews__stars__img" src="assets/img/reviews/star.png" alt="star">
+                    <img class="reviews__stars__img" src="assets/img/reviews/star.png" alt="star">
+                    <img class="reviews__stars__img" src="assets/img/reviews/star.png" alt="star">
+                </div>
+                <p class="reviews__date">21.06.20</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__container container">
+            <div class="footer__block">
+                <div class="footer__block__logo">
+                    <img class="footer__logo__icon" src="assets/img/footer/footer__logo__icon.png" alt="footer__logo__icon">
+                </div>
+                <div class="footer__block__address">
+                    <h2 class="footer__text__logo">DEVCLOUD SOLUTIONS</h2>
+                    <p class="footer__text__address">Алматы, Жамбыла 111</p>
+                </div>
+                <div class="footer__block__contacts">
+                    <img class="footer__block__contacts__icons__img" src="assets/img/footer/footer__icon__phone.png" alt="footer__icon__phone">
+                    <p class="footer__block__contacts__text">+7 (727) 334-21-45</p>
+                    <p class="footer__block__contacts__text">+7 (707) 998-93-90</p>
+                    <img class="footer__block__contacts__icons__img footer__email__img" src="assets/img/footer/footer_icon_email.png" alt="footer_icon_email">
+                    <p class="footer__block__contacts__email">info@devcloud.kz</p>
+                    <img class="footer__block__contacts__icons__img" src="assets/img/footer/footer__icon__whatsap.png" alt="footer__icon__whatsap">
+                    <p class="footer__block__contacts__whatsapp">Whatsapp</p>
+                    <img class="footer__block__contacts__icons__img" src="assets/img/footer/footer_telegram_icon.png" alt="footer_telegram_icon">
+                    <p class="footer__block__contacts__telegram">telegram</p>
+                </div>
+                <div class="footer__block__main">
+                         <a class="footer__menu__container__navigation__item" href="#">
+                            Главная
+                        </a>
+                        <a class="footer__menu__container__navigation__item" href="#">
+                            Услуги
+                        </a>
+                        <a class="footer__menu__container__navigation__item" href="#">
+                            Портфолио
+                        </a>
+                </div>
+                <div class="footer__block__menu">
+                    <a class="footer__menu__container__navigation__item" href="#">
+                        Как мы работаем
+                    </a>
+                    <a class="footer__menu__container__navigation__item" href="#">
+                        О нас
+                    </a>
+                    <a class="footer__menu__container__navigation__item" href="#">
+                        Контакты
+                    </a>
+                </div>
+                <div class="footer__block__arrow">
+                    <img src="assets/img/footer/footer_arrow.png" alt="footer_arrow">
+                </div>
+            </div>
+        </div>
+    </footer>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

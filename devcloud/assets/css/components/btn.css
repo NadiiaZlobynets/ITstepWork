@@ -13,8 +13,71 @@
 }
 
 .main__section__btn__item:hover {
-    border: 2px solid white;
+    border: 2px solid var(--white-basic);
     font-weight: 800;
     cursor: pointer;
 }
 
+.guaranteeing__btn {
+    width: 268px;
+    height: 55px;
+    background: var(--black);
+    box-shadow: 4px 4px 7px var(--box-shadow);
+    border-radius: 32px;
+    margin: 5% auto;
+}
+
+.guaranteeing__btn:hover, .project__btn__bottom:hover {
+   cursor: pointer;
+   background: transparent;
+   color: var(--black);
+   font-weight: bold;
+   border: 3px solid var(--black);
+}
+
+.project__btn__bottom {
+    width: 276px;
+    height: 46px;
+    background: var(--black);
+    border-radius: 43px;
+    z-index: 100;
+    margin-left: -50%;
+}
+
+.project__btn {
+    display: inline-block;
+    width: 60%;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.375;
+    align-items: center;
+    letter-spacing: .05em;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.project__btn:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.process__btn {
+    display: inline-block;
+    width: 60%;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.375;
+    align-items: center;
+    letter-spacing: .05em;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.process__btn:hover {
+    color: var(--blue);
+    cursor: pointer;
+}

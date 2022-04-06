@@ -1,0 +1,28 @@
+.tools__container {
+    margin: 15% auto;
+    width: 90%;
+    height: 800px;
+}
+
+.tools__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.35;
+    letter-spacing: .045em;
+    color: var(--black);
+    margin: 10% auto;
+    width: 45%;
+    text-align: center;
+}
+
+.tools__block__one, .tools__block__two {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.tools__block__one__img, .tools__block__two__img {
+    margin: 1%;
+}

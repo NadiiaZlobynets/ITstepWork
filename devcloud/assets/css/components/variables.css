@@ -1,14 +1,25 @@
 :root {
-    /* font */
+    /* fonts */
     --globalFontFamily: 'Open Sans', sans-serif;
 
-    /* color */
+    /* colors */
     --white-basic: #FFFFFF;
 
-    --black-semi-transparent: rgba(0, 0, 0, .2);
+    --pink: #c4b0d3;
+
+    --blue: #29A28C;
+
+    --brown: #4d353a;
+
+    --black: #000000;
+
+    --black-semi-transparent: rgba(42, 40, 40, .2);
 
     --blue-semi-transparent: rgba(3, 12, 66, .3);
 
     --navi-semi-transparent: rgba(0, 153, 125, .79);
 
+    --gray-semi-transparent: rgba(2, 123, 102, .1);
+
+    --box-shadow: rgba(0, 0, 0, .25);
 }

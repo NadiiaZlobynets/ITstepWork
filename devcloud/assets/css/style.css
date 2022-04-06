@@ -3,6 +3,18 @@
 @import "components/btn.css";
 @import "components/main.css";
 @import "components/guaranteeing.css";
+@import "components/services.css";
+@import "components/our_projects.css";
+@import "components/process.css";
+@import "components/tools.css";
+@import "components/our_experience.css";
+@import "components/works.css";
+@import "components/reviews.css";
+@import "components/footer.css";
+@import "components/hero_mobile.css";
+@import "components/guaranteeing_mobile.css";
+@import "components/services_mobile.css";
+@import "components/our_projects_mobile.css";
 
 body {
     padding: 0;
@@ -26,5 +38,5 @@ h1, h2, a, button {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 0.025em;
+    letter-spacing: .025em;
 }
